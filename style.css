@@ -1,0 +1,402 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border;
+}
+
+.navbar
+{
+	width: 100%;
+	height: 15%;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.label1
+{
+font-family: elephant;
+ color: yellow;
+  font-size: 30px;
+}
+.p1
+{
+	font-size: 30px;
+	color: black;
+}
+.ldiv2
+{
+width:70%;
+height: 100%;
+background-color: grey;
+font-size:40px;
+
+}	
+.sign{
+width:80px; 
+height:40px;
+float: right;
+ padding-right: 20px ;
+ position:relative;
+  bottom: 30px;
+}
+
+.ldiv3
+{
+width: 20%;
+height: 100%;
+background-image: url(py.jpg);
+background-repeat: no-repeat;
+
+}
+
+#section
+{
+	display: flex;
+	flex-direction: row;
+	background-color:white;
+	border-bottom: 2px solid red;
+	border-top: 2px solid red;
+}
+.navigation_bar
+{
+	color: blue;
+	font-size: 20px;
+	display: inline; 
+	padding: 5px 100px;
+
+}
+#section a
+{
+	text-decoration: none;
+}
+
+
+
+.ldiv4
+{
+	width: 100%;  
+	height:100%;
+	margin-bottom:20px;
+	background-size: cover;
+	background-image: url('home.jpg');
+	 animation-name: examples;
+	animation-duration: 5s;
+    animation-iteration-count: infinite ;
+}   
+@keyframes examples{
+	from{ background-image: url('home.jpg'); }
+	from{ background-image: url('py.jpg'); }
+    from{ background-image: url('it.jpg'); }
+ } 
+#search_property
+{
+	
+	background-color: grey;
+	width: 100%;
+	height: 45%;
+	margin-bottom: 5px;
+	border-bottom: 10px solid black;
+}
+#search_property .p1
+{
+	color: red;
+	 font-size: 30px;
+	 padding: 5px 5px;
+
+}
+#search_property .main_property{
+	font-size: 40px;
+	padding: 25px 100px;
+}
+
+#search_property .main_property{
+	font-size: 40px;
+	padding: 30px 80px;
+}
+#price_range
+{
+display: inline; 
+float:left;
+font-size: 40px;
+padding-top: 30px;
+padding-left: 25px;
+}
+.location
+{
+	float: left;
+}
+.search_prop
+{
+	width:90px;
+	height: 50px;
+	margin-top: 21px;
+	margin-left:98px;
+	float: left; 
+}
+.prop_p
+{
+	color: purple;
+	float: left;
+	font-size: 30px;
+	margin-left: 140px;
+	margin-top: 38px;
+}
+
+#welcome_tolet
+{
+	 width: 100%;
+	 
+}
+.welcome_tolet_p
+{
+	font-size: 20px;
+	text-align: justify;
+
+}
+
+
+.tolet_link
+{
+ width:500px;
+ height:350;
+ background-color: ;
+ float: left;
+}
+.tolet_link_para
+{
+font-size: 25px;
+text-align: justify ;
+}
+.tolet_link_h2
+{
+	color: red;
+	font-size: 30px;	
+}
+.tolet_weblink
+{
+	width:500px;
+	 height:350;
+	 background-color: ;
+	 float:left;
+}
+.tolet_weblink_div
+{
+
+padding:10px 110px;
+
+}
+
+ .tolet_weblink_h3
+{
+	padding-left: 110px;	
+	color: red;
+	font-size: 30px;
+
+}
+.tolet_weblink_a
+{
+	color: brown;
+	font-size: 30px;
+	position: relative;	
+	bottom: 2px;
+}
+
+
+.tolet_sitelink
+{
+	width:500px;
+	 height:350;
+	 float: left;
+	 display: flex;
+	flex-direction: column;
+}
+
+.tolet_sitelink_div
+{
+
+padding-left: px;
+padding-bottom: 22px;
+position: relative;
+}
+
+ .tolet_sitelink_h3
+{
+		color: red;
+	font-size: 30px;
+	padding-left: 150px;
+	padding-bottom: 22px;
+}
+.tolet_sitelink_a
+{
+
+
+	color: brown;
+	font-size: 30px;	
+	padding-bottom: 22px;
+	padding-left:150px ;
+}
+
+
+
+
+
+
+
+             /*feedback*/ 
+
+
+.div_1
+{
+background-color:blueviolet;
+width: 100%;
+height: 70px;
+margin-top:20px;	
+}
+.p_1
+{
+	font-size: 17px;
+	color: white;
+	 padding: 20px 10px;
+}
+.div_2
+{
+	width: 100%;
+	height: 80%;
+	background-color: lightgrey;
+	
+}
+.p_2
+{
+	color: red;
+	font-size: 30px;
+	padding-top: 40px;
+	padding-left: 10px;
+}
+.p_3
+{
+	font-size:20px;
+	float:left;
+	padding-left: 10px;
+	padding-top: 20px;
+}
+.p_4
+{
+	font-size:20px;
+	float:left;
+	padding-left: 45%;
+	padding-top:20px;
+}
+.p_5
+{
+	color: red;
+	font-size: 30px;
+	padding-top: 80px;
+	padding-left: 10px;
+}
+.text_area
+{
+width: 30%;
+height: 30%;
+font-size: 20px;
+border-radius: 9px;
+
+}
+.div_3
+{
+	padding-left: 10px;
+	 padding-top: 20px;
+}
+.feedback_submit
+{
+	width: 20%;
+	height: 50px;
+	border-radius: 10px;
+	}
+
+
+
+
+
+/*          sing in*/
+
+.signin_p1
+{
+	font-family: elephant;
+	font-size: 50px;
+	color: red;
+	position: relative;
+	top: 30px;
+	padding-left: 65px;
+}
+.signin_p2
+{
+	font-size: 40px;
+	padding-left: 65px;
+	float: left;
+}
+.signin_select
+{
+	width: 210px;
+	height:40px ;
+	font-size: 100%;
+
+ margin-left: 300px;
+ padding-left: 59px;
+}
+.signin_input
+{
+width: 210px;
+	height:40px ;
+	font-size: 100%;
+ margin-left: 238px;
+ padding-left: px;
+
+}
+.signin_submit
+{
+	width: 10%;
+	height: 5%;
+	position: relative;
+	top: 60px; 
+	left: 295px;
+}
+.signin_bg
+{
+background-image:url('sign in_bg.jpeg') ;
+background-size: cover;
+width: 100%;
+height: 562px;
+}              
+
+
+
+/*             sign up*/
+
+.signup_bg
+{
+background-image:url('sign in_bg.jpeg') ;
+background-size: cover;
+width: 100%;
+height: 150%;
+}              
+
+
+.signin_submit
+{
+	width: 10%;
+	height: 5%;
+	position: relative;
+	top: 60px; 
+	left: 295px;
+}
+
+
+
+.table_select{
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
